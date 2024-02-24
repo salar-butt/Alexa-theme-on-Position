@@ -1,0 +1,1734 @@
+* {
+  margin: 0;
+  padding: 0px;
+  /* border: 1px solid red; */
+}
+#main {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background: #000 url("https://i.gifer.com/ZKZg.gif") no-repeat center center;
+  background-size: 8%;
+  z-index: 100;
+}
+.alexa {
+  background-image: url(./ww_shegy_nazwa_pl/homepage_bg.jpg);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: 100% 100%;
+}
+.white img {
+  position: absolute;
+  left: 42%;
+  top: 70px;
+  height: 70px;
+  width: 150px;
+}
+.volume img {
+  z-index: 1;
+  position: fixed;
+  top: 130px;
+  padding: 5px;
+  background-color: #f4f4f4;
+}
+.alexa h1 {
+  line-height: 0.9;
+  font-family: sans-serif;
+  font-size: 119px;
+  color: white;
+  position: absolute;
+  top: 180px;
+  left: 27%;
+}
+.alexa h4 {
+  /* font-family: sans-serif; */
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 420px;
+  text-align: center;
+  left: 22%;
+  font-weight: 100;
+}
+.box {
+  position: absolute;
+  top: 566px;
+  left: 45%;
+  height: 92px;
+  width: 90px;
+  background-color: white;
+}
+.box i {
+  color: red;
+  font-size: 27px;
+  position: relative;
+  top: 30px;
+  left: 30px;
+}
+.box:hover {
+  background-color: #d7d7d7;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.box:hover i {
+  transition: 0.3s;
+  top: 40px;
+}
+.nav {
+  z-index: 1;
+  background-color: white;
+  position: sticky;
+  top: 0;
+
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid rgb(180, 177, 177);
+}
+.nav img {
+  position: absolute;
+  height: 55px;
+  width: 50px;
+  top: 17px;
+  left: 30px;
+}
+.nav ul {
+  position: absolute;
+  left: 58%;
+  top: 40%;
+}
+.nav li {
+  float: left;
+  color: black;
+  font-size: 14.3px;
+  font-weight: 600;
+  list-style: none;
+  margin-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+li:hover {
+  color: red;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.about {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.us {
+  height: 500px;
+  width: 41%;
+  position: absolute;
+  background-color: #2a2d2e;
+}
+.us > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 28%;
+  left: 20%;
+}
+.us > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 45.5%;
+  left: 61%;
+}
+.us > .div1 {
+  height: 80px;
+  width: 80px;
+  border: 2px solid white;
+  position: absolute;
+  top: 67%;
+  left: 12.5%;
+}
+.div1 > i {
+  font-size: 27px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.div1:hover {
+  background-color: #ffffff;
+}
+.div1:hover i {
+  left: 55%;
+  transition: 0.5s;
+  color: #2a2d2e;
+}
+.us > .div2 {
+  height: 80px;
+  width: 80px;
+  border: 2px solid white;
+  position: absolute;
+  top: 74.5%;
+  left: 12.5%;
+}
+.div2 > i {
+  font-size: 27px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.div2:hover {
+  background-color: #ffffff;
+}
+.div2:hover i {
+  left: 20%;
+  transition: 0.5s;
+  color: #2a2d2e;
+}
+.lips {
+  height: 500px;
+  width: 55%;
+  position: absolute;
+  left: 45%;
+}
+.lips > h1 {
+  font-size: 30px;
+  color: #333333;
+  font-weight: 100;
+  position: absolute;
+  top: 25%;
+  word-spacing: 2px;
+  line-height: 1.3;
+}
+.lips > h3 {
+  font-size: 20px;
+  color: #474747;
+  font-weight: 100;
+  position: absolute;
+  top: 53%;
+  word-spacing: 2px;
+  line-height: 1.3;
+}
+.lips span {
+  border-bottom: 1px solid black;
+  color: black;
+}
+.lips span:hover {
+  border-bottom: none;
+
+  color: red;
+  cursor: pointer;
+}
+.ipsum {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.dolor {
+  height: 400px;
+  width: 30%;
+  /* background-color: yellow; */
+  position: absolute;
+  top: 55px;
+  left: 80px;
+}
+.dolor > i {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  font-size: 70px;
+  color: black;
+}
+.dolor > h1 {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: rgb(59, 58, 58);
+}
+.dolor > h3 {
+  position: absolute;
+  top: 58%;
+  left: 5%;
+  font-size: 19px;
+  line-height: 1.3;
+  font-weight: 100;
+  color: rgb(85, 82, 82);
+}
+.heart {
+  position: absolute;
+  left: 35%;
+}
+.star {
+  position: absolute;
+  left: 66%;
+}
+.back {
+  position: relative;
+  background-image: url(./ww_shegy_nazwa_pl/numbers_bg.jpg);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  height: 300px;
+  width: 100%;
+}
+.paint {
+  border-right: 1px solid rgb(124, 123, 123);
+  height: 150px;
+  position: absolute;
+  top: 25%;
+  left: 1.5%;
+  width: 16.5%;
+}
+.paint > i {
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  top: 15%;
+  left: 44%;
+}
+.paint > h1 {
+  font-size: 43px;
+  position: absolute;
+  top: 43%;
+  left: 27%;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.paint > h3 {
+  font-size: 19px;
+  position: absolute;
+  top: 80%;
+  left: 13%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.slash {
+  position: absolute;
+  left: 18%;
+}
+.slash > i {
+  left: 42%;
+}
+.slash > h1 {
+  left: 22%;
+}
+.slash > h3 {
+  left: 19%;
+}
+.clock {
+  position: absolute;
+  left: 34%;
+}
+.clock h1 {
+  left: 33%;
+}
+.mug {
+  position: absolute;
+  left: 50%;
+}
+
+.mug h1 {
+  left: 38%;
+}
+.mug > h3 {
+  left: 15%;
+}
+.rotate {
+  position: absolute;
+  left: 66%;
+}
+.rotate > h1 {
+  left: 39%;
+}
+.dollar {
+  position: absolute;
+  left: 82%;
+}
+.dollar > h1 {
+  left: 40%;
+}
+.dollar {
+  border-right: none;
+}
+.meet {
+  position: relative;
+  height: 450px;
+  width: 100%;
+}
+.team {
+  position: absolute;
+  top: 6%;
+  left: 2%;
+  /* left:10%; */
+  height: 400px;
+  width: 45%;
+}
+.team > h1 {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  line-height: 1;
+  top: 25%;
+  left: 15%;
+  color: #333333;
+}
+.team > h3 {
+  font-size: 30px;
+  font-weight: 100;
+  position: absolute;
+  top: 58%;
+  left: 15%;
+  color: black;
+}
+.team2 {
+  position: absolute;
+  top: 6%;
+  left: 55%;
+  height: 400px;
+  width: 38%;
+}
+.team2 h1 {
+  line-height: 1.3;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  top: 26%;
+  left: 5%;
+  color: rgb(94, 91, 91);
+}
+.team2 h2 {
+  font-size: 20px;
+  font-weight: 100;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  color: rgb(94, 91, 91);
+}
+
+.gray {
+  height: 573px;
+  width: 83%;
+  left: 9%;
+  position: relative;
+}
+.ceo {
+  height: 50%;
+  width: 25%;
+  background-image: url(./ww_shegy_nazwa_pl/member1.jpg);
+  position: absolute;
+  background-size: 100% 100%;
+}
+.ceo2 > h1 {
+  font-size: 19px;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+}
+.ceo2 > h3 {
+  font-size: 15px;
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 100%;
+  left: 45%;
+}
+.ceo:hover {
+  transition: 0.3s;
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member1.jpg);
+}
+.ceo:hover h1 {
+  transition: 0.4s;
+  top: 70%;
+  color: white;
+}
+.ceo:hover h3 {
+  transition: 0.4s;
+  top: 80%;
+  color: white;
+}
+
+.ceo2 {
+  height: 90%;
+  width: 89%;
+  position: absolute;
+}
+.ceo:hover .ceo2 {
+  cursor: pointer;
+  border: 15px solid red;
+  transition: 0.4s;
+  /* transition-duration: 1s; */
+}
+.jonny {
+  position: absolute;
+  left: 25%;
+  background-image: url(./ww_shegy_nazwa_pl/member2.jpg);
+}
+.jonny:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member2.jpg);
+}
+.jonny .ceo2 h1 {
+  left: 25%;
+}
+.jonny .ceo2 h3 {
+  left: 23%;
+}
+.anna {
+  position: absolute;
+  left: 50%;
+  background-image: url(./ww_shegy_nazwa_pl/member3.jpg);
+}
+.anna:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member3.jpg);
+}
+.anna .ceo2 h1 {
+  left: 20%;
+}
+.anna .ceo2 h3 {
+  left: 20%;
+}
+.betty {
+  position: absolute;
+  left: 75%;
+  background-image: url(./ww_shegy_nazwa_pl/member4.jpg);
+}
+.betty:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member4.jpg);
+}
+.betty .ceo2 h1 {
+  left: 20%;
+}
+.betty .ceo2 h3 {
+  left: 30%;
+}
+.matthew {
+  position: absolute;
+  top: 50%;
+  background-image: url(./ww_shegy_nazwa_pl/member5.jpg);
+}
+.matthew:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member5.jpg);
+}
+.matthew .ceo2 h1 {
+  left: 20%;
+}
+.matthew .ceo2 h3 {
+  left: 20%;
+  font-size: 14px;
+}
+.curtis {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  background-image: url(./ww_shegy_nazwa_pl/member6.jpg);
+}
+.curtis:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member6.jpg);
+}
+.curtis .ceo2 h1 {
+  left: 20%;
+}
+.curtis .ceo2 h3 {
+  left: 20%;
+  font-size: 14px;
+}
+.joahna {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-image: url(./ww_shegy_nazwa_pl/member7.jpg);
+}
+.joahna:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member7.jpg);
+}
+.joahna .ceo2 h1 {
+  left: 20%;
+}
+.joahna .ceo2 h3 {
+  left: 27%;
+  font-size: 14px;
+}
+.kate {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  background-image: url(./ww_shegy_nazwa_pl/member8.jpg);
+}
+.kate:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/member8.jpg);
+}
+.kate .ceo2 h1 {
+  left: 20%;
+}
+.kate .ceo2 h3 {
+  left: 30%;
+  font-size: 14px;
+}
+
+.what {
+  height: 500px;
+  width: 100%;
+  position: relative;
+}
+.us {
+  height: 500px;
+  width: 42%;
+  position: absolute;
+  background-color: #2a2d2e;
+}
+.us > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 22%;
+  left: 31%;
+}
+.us > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 39.5%;
+  left: 55%;
+}
+.us > h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 57%;
+  left: 57%;
+}
+.logic {
+  height: 500px;
+  width: 55%;
+  position: absolute;
+  left: 45%;
+}
+.logic > h1 {
+  font-size: 27px;
+  color: #333333;
+  font-weight: 100;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.logic > h3 {
+  font-size: 27px;
+  color: #333333;
+  font-weight: 100;
+  position: absolute;
+  left: 7%;
+  top: 55%;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.computer {
+  height: 970px;
+  width: 100%;
+  position: relative;
+}
+.web {
+  border: 1px solid rgb(248, 240, 240);
+  height: 50%;
+  position: absolute;
+  width: 24.888%;
+}
+.web > i {
+  position: absolute;
+  top: 35%;
+  font-size: 39px;
+  color: red;
+  left: 42%;
+}
+.web:hover i {
+  transition-duration: 0.4s;
+
+  top: 12%;
+}
+.web > h1 {
+  position: absolute;
+  top: 48%;
+  left: 30%;
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+.web:hover h1 {
+  transition-duration: 0.4s;
+
+  top: 27%;
+}
+.web > h3 {
+  position: absolute;
+  top: 65%;
+  left: 15%;
+
+  font-weight: 100;
+  text-align: center;
+  font-size: 20px;
+
+  line-height: 1.3;
+  color: transparent;
+  /* display:none; */
+}
+.web:hover h3 {
+  transition-duration: 0.4s;
+  top: 42%;
+  color: #474747;
+  /* display: block; */
+}
+.print {
+  position: absolute;
+  left: 25%;
+}
+.game {
+  position: absolute;
+  left: 50%;
+}
+.game h1 {
+  left: 20%;
+}
+.game h3 {
+  left: 19%;
+}
+.e {
+  position: absolute;
+  left: 75%;
+}
+.e h3 {
+  left: 18%;
+}
+.sound {
+  position: absolute;
+  top: 50%;
+}
+.sound h1 {
+  left: 38%;
+}
+.photograpy {
+  top: 50%;
+  left: 25%;
+}
+.photograpy h1 {
+  left: 28%;
+}
+.support {
+  top: 50%;
+  left: 50%;
+}
+.support h1 {
+  left: 35%;
+}
+.marketing {
+  top: 50%;
+  left: 75%;
+}
+.marketing h1 {
+  left: 33%;
+}
+
+.video {
+  background-image: url(./ww_shegy_nazwa_pl/video\\(1\).jpg);
+  position: relative;
+  height: 450px;
+  width: 100%;
+  background-size: 100% 100%;
+}
+.video:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.4), rgb(255, 0, 0, 0.4)),
+    url(./ww_shegy_nazwa_pl/video\\(1\).jpg);
+}
+.video i {
+  font-size: 80px;
+  color: white;
+  position: absolute;
+  top: 30%;
+  left: 48%;
+}
+.video h1 {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  position: absolute;
+  left: 25%;
+  top: 55%;
+}
+
+.our5 {
+  height: 1100px;
+  width: 100%;
+  position: relative;
+}
+.jar {
+  height: 1100px;
+  width: 42%;
+  position: absolute;
+  background-color: #2a2d2e;
+}
+.jar > h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 15%;
+  left: 45%;
+}
+.jar > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: #d3d3d3;
+  position: absolute;
+  top: 23%;
+  left: 29%;
+}
+
+.lord {
+  height: 1100px;
+  width: 50%;
+  position: absolute;
+  left: 45%;
+}
+.lord > h1 {
+  font-size: 27px;
+  color: #444444;
+  font-weight: 100;
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.lord > h3 {
+  font-size: 18px;
+  color: #444444;
+  font-weight: 100;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+.pics {
+  height: 570.5px;
+  width: 82.9%;
+  left: 17%;
+  position: absolute;
+  top: 48%;
+}
+.pics > .img1 {
+  position: absolute;
+  height: 570.5px;
+  width: 20%;
+  background-image: url(./ww_shegy_nazwa_pl/work1.jpg);
+  background-size: 100% 100%;
+}
+.imga {
+  position: absolute;
+  height: 533px;
+  width: 82%;
+}
+.img1:hover .imga {
+  transition: 0.2s;
+  border: 20px solid red;
+}
+.img1:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url(./ww_shegy_nazwa_pl/work1.jpg);
+}
+.img1 h1 {
+  position: absolute;
+  top: 95%;
+  left: 25%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: transparent;
+}
+.img1 h3 {
+  position: absolute;
+  top: 95%;
+  left: 28%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: transparent;
+}
+.img1:hover h3 {
+  color: white;
+  transition: 0.4s;
+  top: 87%;
+}
+.img1:hover h1 {
+  color: white;
+  top: 82%;
+  transition: 0.4s;
+}
+.pics > .img2 {
+  position: absolute;
+  left: 20%;
+  background-image: url(./ww_shegy_nazwa_pl/work2.jpg);
+}
+.img2:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url(./ww_shegy_nazwa_pl/work2.jpg);
+  background-size: 100% 100%;
+}
+.pics > .img3 {
+  position: absolute;
+  left: 39.98%;
+  background-image: url(./ww_shegy_nazwa_pl/work3.jpg);
+}
+.img3:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url(./ww_shegy_nazwa_pl/work3.jpg);
+  background-size: 100% 100%;
+}
+.pics > .img4 {
+  position: absolute;
+  left: 60%;
+  background-image: url(./ww_shegy_nazwa_pl/work4.jpg);
+}
+.img4:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url(./ww_shegy_nazwa_pl/work4.jpg);
+  background-size: 100% 100%;
+}
+.pics > .img5 {
+  position: absolute;
+  left: 80%;
+  background-image: url(./ww_shegy_nazwa_pl/work5.jpg);
+}
+.img5:hover {
+  background-image: linear-gradient(rgb(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+    url(./ww_shegy_nazwa_pl/work5.jpg);
+  background-size: 100% 100%;
+}
+
+.client {
+  border: 1px solid rgb(204, 199, 199);
+  height: 580px;
+  top: -1px;
+  width: 99.83%;
+  position: relative;
+}
+.client > h1 {
+  font-size: 55px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333333;
+  position: absolute;
+  top: 29%;
+  left: 8%;
+}
+.client > .real {
+  height: 280px;
+  width: 80%;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.real > .pic1 {
+  background-size: 100% 100%;
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  top: 20%;
+}
+.real > .pic2 {
+  left: 20%;
+}
+
+.real > .pic3 {
+  left: 37%;
+}
+.real > .pic4 {
+  left: 53%;
+}
+.real > .pic5 {
+  left: 70%;
+}
+.real > .pic6 {
+  left: 87%;
+}
+
+.pricing {
+  position: relative;
+  height: 360px;
+  width: 100%;
+}
+.pricing > h1 {
+  font-size: 55px;
+  color: #333333;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 8%;
+}
+.pricing > h2 {
+  font-size: 28px;
+  color: #333333;
+  position: absolute;
+  top: 67%;
+  left: 8%;
+  font-weight: 100;
+}
+
+.black {
+  height: 1100px;
+  width: 86%;
+  left: 7%;
+  background-color: transparent;
+  position: relative;
+}
+.black > .rand {
+  height: 1100px;
+  width: 33.2%;
+  position: absolute;
+}
+.rand > .basic {
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  background-color: #2a2d2e;
+}
+.basic > h3 {
+  font-size: 18px;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 20%;
+  left: 43%;
+}
+
+.basic > h1 {
+  font-size: 72px;
+  color: #d3d3d3;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 35%;
+  left: 24%;
+}
+
+.basic > h4 {
+  font-size: 17px;
+  color: #4c4c4c;
+  position: absolute;
+  top: 70%;
+  left: 27%;
+}
+
+.rand > .gray {
+  height: 150px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 25%;
+  left: 0px;
+}
+.gray > h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 20%;
+  left: 7%;
+  font-weight: 100;
+}
+.rand .design {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 38.7%;
+  left: 0px;
+}
+.design > h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+.rand .one {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 47%;
+  left: 0px;
+}
+.one > h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+.rand .css {
+  height: 90px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 55.3%;
+  left: 0px;
+}
+.css > h2 {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+.rand .choose {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 63.5%;
+  left: 0px;
+}
+.choose > button {
+  height: 70px;
+  background-color: rgb(232, 232, 232);
+  width: 60%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(51, 50, 50);
+  border: 2px solid black;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.rand:hover .gray {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.rand:hover .design {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.rand:hover .one {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.rand:hover .css {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.rand:hover .choose {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.rand:hover .choose button {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.rand > .choose > button:hover {
+  color: white;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+.premium {
+  position: absolute;
+  left: 33.3%;
+}
+.premium .customer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 63.5%;
+}
+.customer > h2 {
+  background-color: rgb(232, 232, 232);
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+
+.premium .choose {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 72.5%;
+  left: 0px;
+}
+.choose > button {
+  height: 70px;
+  background-color: rgb(232, 232, 232);
+  width: 60%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(51, 50, 50);
+  border: 2px solid black;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.premium:hover .customer {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.premium:hover .customer > h2 {
+  background-color: #f5f5f5;
+}
+
+.enterprise {
+  position: absolute;
+  left: 66.6%;
+}
+.enterprise .customer {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 63.5%;
+}
+.customer > h2 {
+  background-color: rgb(232, 232, 232);
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+.enterprise:hover .customer {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.enterprise:hover .customer > h2 {
+  background-color: #f5f5f5;
+}
+.enterprise:hover .integrated > h2 {
+  background-color: #f5f5f5;
+}
+.enterprise:hover .custom > h2 {
+  background-color: #f5f5f5;
+}
+.enterprise .integrated {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 72.5%;
+}
+.integrated > h2 {
+  background-color: rgb(232, 232, 232);
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+.enterprise:hover .integrated {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+.enterprise .custom {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 80.5%;
+}
+.custom > h2 {
+  background-color: rgb(232, 232, 232);
+  font-size: 20px;
+  line-height: 1.4;
+  color: #3f3e3e;
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  font-weight: 100;
+}
+.enterprise:hover .custom {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.enterprise .choose {
+  height: 120px;
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  position: absolute;
+  top: 89%;
+  left: 0px;
+}
+.choose > button {
+  height: 70px;
+  background-color: rgb(232, 232, 232);
+  width: 60%;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(51, 50, 50);
+  border: 2px solid black;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+.width {
+  height: 300px;
+  width: 100%;
+  background-size: 100% 100%;
+  background-image: url(./ww_shegy_nazwa_pl/parallax_bg.jpg);
+  position: relative;
+  top: 140px;
+  background-attachment: fixed;
+}
+.width > h1 {
+  color: white;
+  position: absolute;
+  top: 40%;
+  line-height: 1.5;
+  left: 25%;
+  text-align: center;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.from {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  top: 140px;
+}
+.from .blog {
+  height: 100%;
+  width: 38%;
+  background-color: #2a2d2e;
+  position: absolute;
+}
+.blog h1 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 21%;
+  left: 28%;
+  color: #d3d3d3;
+}
+.blog h2 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 38%;
+  left: 46%;
+  color: #d3d3d3;
+}
+.blog h3 {
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  color: #d3d3d3;
+}
+.from .watch {
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  left: 40%;
+  background-color: #ffffff;
+}
+.watch > h3 {
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.fluid {
+  top: 140px;
+  height: 400px;
+  width: 100%;
+  position: relative;
+
+  border: 1x 0px 1px 0px solid lightgray;
+}
+.fluid > h1 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  top: 25%;
+  left: 6%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.fluid > h2 {
+  font-size: 18px;
+  color: #919191;
+  position: absolute;
+  top: 80%;
+  left: 6%;
+  font-weight: 100;
+}
+.fluid > .resource {
+  font-size: 18px;
+  color: #919191;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+  font-weight: 100;
+}
+.fluid > ol {
+  font-size: 18px;
+  color: #919191;
+  list-style: disc;
+  position: absolute;
+  top: 80%;
+  left: 23%;
+  font-weight: 100;
+}
+.fluid:hover {
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+.fluid:hover h1 {
+  left: 10%;
+  transition: 1s;
+}
+.fluid:hover h2 {
+  left: 10%;
+  transition: 1s;
+}
+.fluid:hover .resource {
+  left: 19%;
+  transition: 1s;
+}
+.fluid:hover ol {
+  left: 27%;
+  transition: 1s;
+}
+.preparing > h2 {
+  top: 65%;
+}
+.preparing > .resource {
+  top: 65%;
+}
+.preparing > ol {
+  top: 65%;
+}
+
+.load {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  border: 1x 0px 1px 0px solid lightgray;
+}
+.load > button {
+  height: 60px;
+  width: 200px;
+  font-size: 18px;
+  color: rgb(42, 45, 45);
+  border: 2px solid rgb(42, 45, 45);
+  background-color: transparent;
+  position: absolute;
+  top: 60%;
+  left: 6%;
+}
+.load > button:hover {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.contact1 {
+  height: 700px;
+  width: 100%;
+  /* background-color: red; */
+}
+.contact1 .big {
+  height: 700px;
+  width: 58%;
+  background-color: #2a2d2e;
+  position: absolute;
+}
+
+.big > h1 {
+  font-size: 90px;
+  color: #d3d3d3;
+  font-family: Arial, Helvetica, sans-serif;
+
+  position: absolute;
+  top: 15%;
+  left: 35%;
+}
+.big > h2 {
+  font-size: 26px;
+  color: #d3d3d3;
+  font-weight: 100;
+  position: absolute;
+  top: 35%;
+  left: 35%;
+}
+.big > h2 > input {
+  height: 50px;
+  width: 260px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.big > h3 {
+  font-size: 26px;
+  color: #d3d3d3;
+  font-weight: 100;
+  position: absolute;
+  top: 45%;
+  left: 35%;
+}
+.big > h3 > input {
+  height: 50px;
+  width: 260px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+}
+.big > h4 {
+  font-size: 26px;
+  color: #d3d3d3;
+  font-weight: 100;
+  position: absolute;
+  top: 57%;
+  left: 35%;
+}
+.big > h4 > input {
+  height: 50px;
+  width: 260px;
+  background-color: transparent;
+  position: absolute;
+  left: 140%;
+  top: 200%;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+}
+.big > button {
+  position: absolute;
+  top: 80%;
+  left: 70%;
+  height: 60px;
+  width: 120px;
+  background-color: transparent;
+  color: #d3d3d3;
+  font-size: 20px;
+  border: 2px solid #d3d3d3;
+}
+.big > button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.contact1 > .factorial {
+  height: 700px;
+  width: 42%;
+  position: absolute;
+  background-color: #ffffff;
+  left: 57%;
+}
+.factorial > h1 {
+  font-size: 27px;
+  color: #333333;
+  font-weight: 100;
+  position: absolute;
+  top: 12%;
+  left: 17%;
+}
+
+.factorial .icon1 > i {
+  font-size: 35px;
+  position: absolute;
+  top: 26%;
+  left: 17%;
+  color: red;
+}
+.factorial > h2 {
+  font-size: 25px;
+  position: absolute;
+  font-weight: 100;
+  top: 34%;
+  left: 17%;
+  color: #333333;
+}
+.factorial > h3 {
+  font-size: 18px;
+  position: absolute;
+  font-weight: 100;
+  top: 41%;
+  left: 17%;
+  color: #474747;
+}
+.factorial .icon2 > i {
+  font-size: 35px;
+  position: absolute;
+  top: 55%;
+  left: 17%;
+  color: red;
+}
+.factorial > h4 {
+  font-size: 22px;
+  position: absolute;
+  font-weight: 100;
+  top: 65%;
+  left: 17%;
+  color: #363535;
+}
+
+.factorial .icon3 > i {
+  font-size: 35px;
+  position: absolute;
+  top: 75%;
+  left: 17%;
+  color: red;
+}
+.factorial > h5 {
+  font-size: 27px;
+  position: absolute;
+  font-weight: 100;
+  top: 85%;
+  left: 17%;
+  color: #252525;
+}
+
+.copyright {
+  background-attachment: fixed;
+  height: 300px;
+  background-image: url(./ww_shegy_nazwa_pl/footer_bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  position: relative;
+}
+.copyright > h1 {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+  color: #ffffff;
+}
+.copyright .icon1 > i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: #ffffff;
+}
+.icon1:hover i {
+  transition: 0.3s;
+
+  color: red;
+  cursor: pointer;
+}
+.copyright .icon2 > i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 9%;
+  color: #ffffff;
+}
+.icon2:hover i {
+  color: red;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+.copyright .icon3 > i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  color: #ffffff;
+}
+.icon3:hover i {
+  color: red;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+.copyright .icon4 > i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  color: #ffffff;
+}
+.icon4:hover i {
+  color: red;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+.copyright .icon5 > i {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 21%;
+  color: #ffffff;
+}
+.icon5:hover i {
+  color: red;
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.copyright .box2 {
+  position: absolute;
+  top: 40%;
+  left: 85%;
+  height: 90px;
+  width: 90px;
+  border: 2px solid #ffffff;
+}
+.box2 > i {
+  font-size: 30px;
+  color: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.box2:hover {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.box2:hover i {
+  color: black;
+  top: 20%;
+  transition: 0.3s;
+}
